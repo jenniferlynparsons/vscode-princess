@@ -1,0 +1,22 @@
+{
+    "name": "theme-princess",
+    "displayName": "Princess Port",
+    "description": "A light theme ported from Emily Hyland's Princess Atom theme.",
+    "version": "0.0.1",
+    "publisher": "jenniferlynparsons",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Princess",
+                "uiTheme": "vs",
+                "path": "./themes/Princess.tmTheme"
+            }
+        ]
+    }
+}
